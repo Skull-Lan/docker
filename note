@@ -1,10 +1,29 @@
-＃By Skull Lan
-＃＃＃
+By Skull Lan
+###
+創建20201025
+頁尾有編輯紀錄
+###
+
+
+###
 ＃參考資料 
-1.https://joshhu.gitbooks.io/dockercommands/content/Containers/DockerRun.html
+1.https://joshhu.gitbooks.io/dockercommands/content/Basics/Basics.html
 2.
-＃＃＃
-＃docker 筆記～～
+###
+
+#docker info
+查看docker資訊
+
+#docker version
+查看版本資訊
+
+#docker login
+暫時還沒有看
+
+#docker search
+搜尋docker hub上的image檔
+
+#docker 筆記～～
 
 #docker pull
 從docker hub上下載image
@@ -20,5 +39,18 @@
 
 
 
-
-
+###
+編輯紀錄
+#docker info
+20201025
+#docker version
+20201025
+#docker login
+20201025
+#docker search
+20201025
+#docker pull
+20201025
+#docker run
+20201025
+###
