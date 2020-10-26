@@ -76,6 +76,7 @@ end --- docker image相關指令
 
 ###
 編輯紀錄
+## 基礎
 #docker info
 20201025
 #docker version
@@ -84,14 +85,17 @@ end --- docker image相關指令
 20201025
 #docker search
 20201025
-#docker pull
+## images
+#docker images
 20201025
-#docker run
+#docker pull
 20201025
 #docker save
 20201026
-#docker load
+#docker rmi
 20201026
-#docker images
+#docker tag
+20201026
+#docker push
 20201026
 ###
