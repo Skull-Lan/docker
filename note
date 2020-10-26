@@ -46,10 +46,12 @@ start --- docker image相關指令
 #docker save
 -o 輸出壓縮檔
 docker save -o name.tar image_name
+將映像檔輸出
 
 #docker load
 --input 目前未知
 docker load --input webdemou12.tar
+從tar讀取image
 
 #docker rmi
 -f 強制刪除映像檔
@@ -58,15 +60,19 @@ docekr rmi -f $(docker images -aq) 結合Linux指令刪除所有映像檔
 刪除映像檔
 
 #docker tag
+給予映像檔標籤(一個映像檔可以具有多個標簽)
+
+#docker build/history
+已現成映像檔為基礎產生新的映像檔，可以從docker history看到每一步過程
+
+#docker push
+將映像檔上傳至docker hub
 
 ###
 end --- docker image相關指令
 ###
 
-
 #docker run
-
-
 
 ###
 編輯紀錄
