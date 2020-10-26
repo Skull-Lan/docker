@@ -4,11 +4,14 @@ By Skull Lan
 頁尾有編輯紀錄
 ###
 
-
 ###
 ＃參考資料 
 1.https://joshhu.gitbooks.io/dockercommands/content/Basics/Basics.html
-2.
+2.https://philipzheng.gitbook.io/docker_practice/image/save_load
+###
+
+###
+start --- docker基礎系統
 ###
 
 #docker info
@@ -21,21 +24,47 @@ By Skull Lan
 暫時還沒有看
 
 #docker search
+-s 查看image評價
 搜尋docker hub上的image檔
 
-#docker 筆記～～
+###
+end --- docker基礎系統
+###
+
+###
+start --- docker image相關指令
+###
+#docker images
+-a 完整資訊
+-q 映像檔ID
+查看系統中的映像檔(image)
 
 #docker pull
+-a 下載映像檔(請勿隨意使用)
 從docker hub上下載image
 
+#docker save
+-o 輸出壓縮檔
+docker save -o name.tar image_name
+
+#docker load
+--input 目前未知
+docker load --input webdemou12.tar
+
+#docker rmi
+-f 強制刪除映像檔
+--no-prune=true 刪除有tag name的映像檔
+docekr rmi -f $(docker images -aq) 結合Linux指令刪除所有映像檔
+刪除映像檔
+
+#docker tag
+
+###
+end --- docker image相關指令
+###
+
+
 #docker run
-
-
-
-
-
-
-
 
 
 
@@ -53,4 +82,10 @@ By Skull Lan
 20201025
 #docker run
 20201025
+#docker save
+20201026
+#docker load
+20201026
+#docker images
+20201026
 ###
