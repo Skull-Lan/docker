@@ -72,7 +72,18 @@ docekr rmi -f $(docker images -aq) 結合Linux指令刪除所有映像檔
 end --- docker image相關指令
 ###
 
-#docker run
+###
+start --- container相關指令
+###
+#docker run/create
+建立Container並執行指令
+
+#docker kill
+刪除執行中的C
+
+###
+end --- container相關指令
+###
 
 ###
 編輯紀錄
@@ -98,4 +109,5 @@ end --- docker image相關指令
 20201026
 #docker push
 20201026
+#docker 
 ###
