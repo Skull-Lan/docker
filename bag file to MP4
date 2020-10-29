@@ -1,1 +1,2 @@
-
+docker run -it -v /home/ntk-lab/Desktop:/YuHao ros /bin/bash
+source ros_entrypoint.sh
