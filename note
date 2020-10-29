@@ -8,6 +8,7 @@ By Skull Lan
 ＃參考資料 
 1.https://joshhu.gitbooks.io/dockercommands/content/Basics/Basics.html
 2.https://philipzheng.gitbook.io/docker_practice/image/save_load
+3.https://www.runoob.com/docker/docker-tutorial.html
 ###
 
 ###
@@ -76,10 +77,18 @@ end --- docker image相關指令
 start --- container相關指令
 ###
 #docker run/create
+-i 交互式操作
+-t 終端
+-v 1.在主機端生成資料夾並掛載到容器上
+   2.將主機特定路徑掛載到容器上，冒號以後含子資料夾。ex(docker run -v /home/host:/storage images /bin/bash)
 建立Container並執行指令
 
 #docker kill
-刪除執行中的C
+終止執行中的Container
+
+#docker rm
+刪除容器
+
 
 ###
 end --- container相關指令
@@ -109,5 +118,10 @@ end --- container相關指令
 20201026
 #docker push
 20201026
-#docker 
+#docker run/create
+20201029
+#docker kill
+20201029
+#docker rm
+20201029
 ###
