@@ -89,6 +89,9 @@ start --- container相關指令
 #docker rm
 刪除容器
 
+#tensorflow jupyter notebook image
+docker run --gpus all -v /host掛載路徑:/tf/host -p 8888:888:8888 -e PASSWORD=password tensorflow/tensorflow:latest-gpu-jupyter
+
 
 ###
 end --- container相關指令
