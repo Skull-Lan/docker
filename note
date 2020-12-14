@@ -93,6 +93,7 @@ start --- container相關指令
 docker run --gpus all -v /host掛載路徑:/tf/host -p 8888:888:8888 -e PASSWORD=password tensorflow/tensorflow:latest-gpu-jupyter
 docker run --gpus all -it -v /home/ntk-lab/Desktop/YuHao:/tf -p 8888:8888 -e PASSWORD=yylab7022 tensorflow/tensorflow:latest-gpu-jupyter
 
+sudo docker run --gpus all -it -v /home/ntk-lab/Desktop/YuHao:/tf -p 8888:8888 -e PASSWORD=yylab7022 tensorflow/tensorflow:1.13.1-gpu-py3-jupyter
 
 ###
 end --- container相關指令
