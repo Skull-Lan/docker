@@ -1,0 +1,19 @@
+查看系統中的映像檔(image)
+docker images
+-a 完整資訊
+-q 映像檔ID
+ex:docker images -a
+
+從docker hub上下載image
+docker pull
+-a 下載映像檔(請勿隨意使用)
+ex:sudo docker pull tensorflow/tensorflow
+
+將映像檔輸出
+docker save
+docker save -o name.tar image_name
+ex:
+
+
+
+
